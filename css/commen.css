@@ -1,0 +1,16 @@
+*{
+	list-style: none;
+	outline: none;
+	margin:0;
+	padding: 0;
+	font-size: 13px;
+	transition: all 0.3s ease;
+}
+.clearfix{
+			zoom:1;
+		}
+.clearfix:after{
+	display: table;
+	content: "";
+	clear:both;
+}

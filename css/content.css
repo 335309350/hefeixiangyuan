@@ -1,0 +1,437 @@
+/*banner*/
+.banner{
+	width: 100%;
+	text-align: left;
+}
+.banner .item{
+	height: 435px;
+	width: 100%;
+}
+.banner .nine{
+	width: 100%;
+}
+/*production*/
+.production{
+	width: 100%;
+    height: 1540px;
+    background: url("../images/iprobg.jpg") center top no-repeat;
+    position: relative;
+}
+.production .pro1{
+	position: relative;
+	z-index: 2;
+	margin-left: 180px;
+	margin-top: 30px;
+}
+.production .pro1 .title1{
+	display: block;
+	font-size: 38px;
+    color: #df0024;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.production .pro1 .title2{
+	display:inline-block;
+	font-size: 20px;
+	color: #333;
+	font-weight: bolder;
+}
+.production .small{
+	margin-left: 180px;
+	margin-top: 20px;
+}
+.production .yellow{
+	text-align: left;
+	width: 353px;
+	height: 340px;
+	background-color: #FFF100;
+	float: left;
+}
+.production .xh{
+	display: block;
+	font-size: 60px;
+    color: #df0024;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.production .size{
+	display: block;
+	font-size: 35px;
+    color: #333;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.production  span{
+	display: block;
+	margin-left: 20px;
+}
+.production  span p{
+	font-size: 16px;
+	color: #df0024;
+	margin: 0;
+	font-weight: bolder;
+}
+.production .yellow .yellowimg{
+	width: 372px;
+	height: 111px;
+	position: absolute;
+	z-index: 3;
+}
+.production .yellow .yellowimg i{
+	background-image: url('../images/hot_btn.png');
+	width: 372px;
+	height: 111px;
+	background-position: 0 0;
+	display: block;
+}
+.production .small .hot1{
+	float: left;
+}
+.production .small .hot1 i{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url('../images/hot.png') no-repeat;
+    position: absolute;
+    right: 200px;
+    top: 150px;
+    z-index: 5;
+}
+.production .medium .hot2{
+	float: left;
+	margin-left: 180px;
+}
+.production .medium .hot2 i{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url('../images/hot.png') no-repeat;
+    position: absolute;
+    left: 200px;
+    top: 500px;
+    z-index: 5;
+}
+.production .yellow .yellowimg .right{	
+	background-image: url('../images/hot_btn.png');
+	width: 372px;
+	height: 111px;
+	background-position: 0 111px;
+	display: block;
+	position: absolute;
+	left: -18px;
+}
+.production .big{
+	margin-left: 480px;
+}
+.production .sany {
+	width: 560px;
+    height: 519px;
+    position: absolute;
+    left: -10px;
+    bottom: 440px;
+    z-index: 6;
+}
+.production .pro2{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.production .pro2 ul{
+	margin-left: 180px;
+}
+.production .pro2 ul a li{
+	float: left;
+	margin-right: 5px;
+}
+.production .pro2 .hotpro{
+	width: 330px;
+	height: 45px;
+	background-color: #FFF100;
+	position: relative;
+}
+.production .pro2 .hotpro span{
+	float: left;
+}
+.production .pro2 .hotpro .n1{
+	font-size: 16px;
+	color: #DF0024;
+	margin-top: 8px;
+	margin-right: 0;
+}
+.production .pro2 .hotpro .n2{
+	font-size: 10px;
+	color: #333;
+	margin-top: 12px;
+	margin-left: 0;
+}
+.production .pro2 .hotpro .n3{
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 1px;
+	width: 118px;
+	height: 42px;
+	background-image:url('../images/order_btn.png');
+}
+.production .old{
+	position: absolute;
+	width: 100%;
+	background-image: url('../images/red_title.png');
+	background-repeat: no-repeat;
+}
+.production .old .old-p{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*used car*/
+.used{
+	width: 100%;
+	height: 500px;
+	background-color: #FEE37C;
+	position: relative;
+	z-index: 1;
+}
+.used .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        overflow: hidden;
+    }
+.used .swiper-container img{
+	width: 320px;
+	height: 225px;
+	overflow: hidden;
+	background-color: #fff;
+	
+}
+.used .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 340px;
+        height: 345px;
+        background-color: #fff;
+        box-shadow: 2px 0 4px #444;
+        padding: 10px;
+    }
+.used .swiper-slide .text p{
+	color: #E30000;
+	font-size: 20px;
+	margin: 0px;
+	font-weight: bolder;
+}
+.used .swiper-slide .text span{
+	margin-top: 5px;
+	display: block;
+}
+.used .swiper-slide .text span p{
+	color: #494949;
+	font-size: 14px;
+}
+
+/*tool*/
+.tool{
+	width: 100%;
+	position: relative;
+}
+.tool .tooltil{
+    text-align: center;
+    background: url(../images/red_title.png) center top repeat-x;
+    height: 120px;
+    margin-top:-7px;
+}
+.tool .tooltil img{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.tool .toolpic{
+	height: 423px;
+	position: relative;
+	background-image: url('../images/ipartbg.jpg');
+	margin-left: -280px;
+}
+.tool .toolpic .toolshow{
+	width: 281px;
+    height: 246px;
+    position: absolute;
+    right: 50%;
+    top: 74px;
+    margin-right: -600px;
+    background: url(../images/part_box.png) no-repeat;
+    padding-top: 35px;
+    overflow: hidden;
+    text-align: center;
+}
+.tool .toolpic .toolshow .swiper-container{
+	width: 250px;
+	height: 220px;
+}
+.tool .swiper-container .swiper-slide{
+	background-color:#fff;
+	width: 200px;
+	height: 120px;
+	margin-top: 40px;
+	margin-right:20px;
+}
+.tool .toolpic .toolshow .swiper-container img{
+	width: 180px;
+    height: 120px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.tool .swiper-container .include{
+	width: 281px;
+	height: 246px;
+	overflow: hidden;
+
+}
+
+
+/*other*/
+.other{
+	width: 100%;
+	background: #F1F1F1 url('../images/otherbg.png') repeat-x;
+}
+.other .circle{
+	width: 100%;
+	text-align: center;
+}
+.other .circle ul{
+	margin-left: 180px;
+}
+.other .circle li{
+    height: auto;
+    float: left;
+    position: relative;
+    margin-right: 55px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+.other .circle li a{
+	text-align: center;
+	color: #666;
+    text-decoration: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.other .circle li a span{
+	margin-left: -50px;
+	color: #666;
+	font-weight: bolder;
+}
+.other .circle li i{
+	display: block;
+    padding-right: 51px;
+    height: 143px;
+    background: url(../images/big_linksbg.png) no-repeat;
+    margin-top: 63px;
+    text-align: center;
+}
+.other .circle li i:hover img{
+	transform: rotateY(360deg);
+	transition: all 1s ease;
+}
+.other .park{
+	margin-bottom: 40px;
+	width: 1000px;
+	height:380px;
+	background-color: #fff;
+	margin-left: 180px;
+}	
+.other .park .about{
+	width: 270px;
+	border-bottom: 2px solid#E9212E;
+	padding-bottom: 15px;
+	float: left;
+}
+.other .park .about .text{
+	width: 270px;
+	text-align: left;
+	padding: 10px;
+}
+.other .park .about .text a{
+	color: #999;
+	font-size: 13px;
+	text-decoration: none;
+	line-height: 25px;
+}
+.other .park a{
+	color: #E9212E;
+	padding: 10px;
+	font-size: 13px;
+}
+.other .park .news{
+	float: left;
+}
+.other .park .news .news-detail li{
+	width: 530px;
+	height: 45px;
+	line-height: 45px;
+	color: #656565;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 50px;
+	overflow: hidden;
+}
+.other .park .news .news-detail .num{
+	display: inline-block;
+	margin-right: 50px;
+}
+.other .park .news .news-detail .num span{
+	font-size: 20px;
+	color: #999;
+	font-weight: bolder;
+}
+.other .park .news .news-detail .new {
+	color: #999;
+}
+.other .park .news .news-detail .hid {
+	color: #999;
+	display: block;
+	line-height: 23px;
+	margin-top:  0px;
+	margin-left: 80px;
+}
+.other .park .news .news-detail li:hover{
+	height: 104px;
+	background-color: #F7F2EE;
+	border-bottom: 1px solid#F1F1E4;
+}
+.other .park .news .news-detail li:hover .num span{
+	font-size: 30px;
+}
+.other .park .news .news-detail li:hover .new{
+	font-weight: bolder;
+}
+
+
+
+.other .park .pleasure{
+	width: 200px;
+	height: 380px;
+	float: left;
+}
+.other .park .pleasure .pleasure-detail{
+	width: 200px;
+	height:180px;
+	background-color: #FEAF0D;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+.other .pleasure-detail ul li{
+	line-height: 10px;
+	font-size: 13px;
+}
+.other .pleasure-detail ul a{
+	text-decoration: none;
+	color: #fff;
+}
+.other .pleasure-detail ul a:hover{
+	text-decoration: underline;
+}

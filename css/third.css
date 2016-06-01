@@ -1,0 +1,82 @@
+.wsmall{
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/pro_listbg01.jpg');
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wwrap{
+	width: 1000px;
+	height: 440px;
+	position: absolute;
+	top: 80px;
+	left: 175px;
+}
+.logo{
+	text-align: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.logo .intro p{
+	font-size: 30px;
+	font-weight: bolder;
+	color: #E00025;
+	margin-top: 20px;
+}
+.wwrap .logo .intro span{
+	color: #444444;
+	font-size: 14px;
+}
+.wsmall .wwrap .sbanner{
+	height: 240px;
+	width: 1000px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.wsmall .sbanner .swiper-wrapper{
+	width: 250px;
+	height: 240px;
+}
+.wsmall .sbanner .swiper-wrapper .swiper-button-pre{
+	position: absolute;
+	right: 0;
+	width: 50px;
+	height: 240px;
+	background-color: red;
+}
+.wmedium{
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/pro_listbg02.jpg');
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wmedium .wwrap{
+	text-align: left;
+	position: relative;
+}
+.wmedium .logo{
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.wmedium .logo .intro p{
+	color: #1E1E1E;
+}
+.wbig{
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/pro_listbg03.jpg');
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wbig .logo .intro p{
+	color: #1E1E1E;
+}

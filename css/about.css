@@ -1,0 +1,176 @@
+@charset 'utf-8';
+.grey{
+	margin-top: -8px;
+	width: 100%;
+	height: 55px;
+	background-color: #DEDEDE;
+	line-height: 55px;
+}
+.grey nav{
+	margin-left: 180px;
+}
+.grey nav li{
+	float: left;
+	width: 110px;
+	border-right: 1px solid#D1D1D1;
+	text-align: center;
+	color: #666;
+}
+.grey nav #active{
+	background-color: #fff;
+}
+.grey nav #big{
+	width: 210px;
+	color: #555;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.grey nav li:hover{
+	background-color: #fff;
+}
+.grey nav li:active{
+	background-color: #fff;
+}
+.grey nav #big:hover{
+	background-color: #dedede;
+}
+.introduction{
+	width: 100%;
+	background-color: #fff;
+	color: #333333;
+	text-align: center;
+	margin-top: 20px;
+}
+.introduction .location{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+}
+.introduction .title{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.introduction .title p{
+	font-size: 40px;
+	color: #A7A9AC;
+	font-weight: bolder;
+	line-height: 30px;
+}
+.introduction .text{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	text-indent: 30px;
+}
+.introduction .text p{
+	font-size: 14px;
+	color: #333;
+	display: block;
+	margin-top: -5px;
+}
+.introduction .banner{
+	margin-top: 40px;
+
+	width: 1090px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+}
+.introduction .banner .pre{
+	width: 45px;
+	height: 200px;
+	overflow: hidden;
+	float: left;
+}
+.introduction .banner i{
+	width: 100px;
+	height: 45px;
+	display: block;
+	background-image: url('../images/ab_btn.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin-top: 60px;
+}
+.introduction .banner i:hover{
+	transform: translateX(-45px);
+}
+.introduction .banner .next{
+	width: 45px;
+	height: 200px;
+	overflow: hidden;
+	float: left;
+}
+.introduction .banner .next i{
+	background-position: 0 -45px;
+	width: 100px;
+	height: 45px;
+}
+.introduction .banner .next i:hover{
+	transform: translateX(-45px);
+}
+.introduction .banner .picture{
+	width: 1000px;
+	left: 50px;
+	float: left;
+}
+.introduction .banner ul li{
+	float: left;
+	width: 240px;
+	height: 160px;
+	overflow: hidden;
+	margin-right: 13px;
+}
+#right{
+	margin-right: 0px;
+}
+.introduction .banner ul li img{
+	width: 240px;
+	height: 160px;
+	overflow: hidden;
+}
+/*董事长*/
+.dong{
+	width: 100%;
+	background-color: #F1F1F1;
+	color: #555555;
+	margin-bottom: 40px;
+}
+.dong .wrap{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 390px;
+}
+.dong .pic{
+	float: left;
+	padding: 40px 40px 40px 0;
+	width: 250px;
+	height: 310px;
+}
+.dong .text{
+	position: relative;
+	float: left;
+	padding: 40px 0px 0px 20px;
+	width: 750px;
+	height: 310px;
+	font-size: 14px;
+}
+.dong .text p{
+	display: block;
+	margin-bottom: 30px;
+	line-height: 20px;
+	text-indent: 25px;
+}
+.dong .text i{
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: -40px;
+}

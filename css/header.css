@@ -1,0 +1,217 @@
+.head-top{
+	width: 100%;
+	height: 36px;
+	background-color: #F9F9F9;
+	border-bottom: 1px solid#EBEBEB;
+	color:#999999;
+	font-size: 13px;
+}
+.head-top .top-left{
+	float: left;
+	margin-left: 180px;
+	margin-right: 250px;
+}
+.head-top .top-medium{
+	float: left;
+}
+.head-top .top-right{
+	float: left;
+}
+.head-top .top-left ul li{
+	float: left;
+	height: 34px;
+	width: 120px;
+	line-height: 34px;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.head-top .top-left ul li i{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-image: url('../images/ico.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	line-height: 34px;
+	margin-top: 10px;
+}
+.head-top .top-left ul li #mobile{
+	background-position: -60px -45px;
+}
+.head-top .top-left ul li #move{
+	background-position: -60px 0 ;
+} 
+.head-top .top-left ul li span{
+	display: block;
+	float: left;
+}
+.head-top .top-medium li{
+	float: left;
+	height: 34px;
+	width: 100px;
+	line-height: 34px;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.head-top .top-medium li i{
+	width: 20px;
+	height: 20px;
+	background-image: url('../images/ico.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: -5px;
+}
+.head-top .top-medium a{
+	color: #999;
+	text-decoration: none;
+}
+.head-top .top-medium a:hover li{
+	color: #666;
+}
+.head-top .top-medium li #a{
+	background-position: 0 0;
+}
+.head-top .top-medium li #b{
+	background-position:-21px 0; 
+}
+.head-top .top-medium li #c{
+	background-position:-40px 0;
+}
+.head-top .top-right{
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+}
+.head-top .top-right input{
+	border: none;
+	outline: none;
+	background-color: #fff;
+	width: 135px;
+	height: 30px;
+}
+.head-top .top-right button{
+	width: 30px;
+	height: 30px;
+	border:none;
+	outline: none;
+	background-color: #e70014;
+}
+.head-top .top-right button span{
+	width: 20px;
+	height: 20px;
+	color: #fff;
+}
+
+/*head-medium*/
+
+
+.head-medium{
+	width: 100%;
+	background-color: #fff;
+}
+.head-medium .logo{
+	float: left;
+	margin:20px 445px 20px 180px;
+	cursor: pointer;
+}
+.head-medium .tel{
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+.head-medium .order{
+	float: left;
+	width: 120px;
+	height: 40px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.head-medium .order button{
+	width: 120px;
+	height: 40px;
+	background-color: #FFDB3D;
+	color: #333;
+	border: none;
+	outline: none;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+/*head-bottom*/
+
+
+.head-bottom{
+	width: 100%;
+	height: 50px;
+	background-color: #E00025;
+	box-shadow: 2px 0px 5px #444;
+	text-align: center;
+	position: relative;
+}
+.head-bottom nav ul {
+	margin-left: 180px;
+}
+.head-bottom nav ul li{
+	float: left;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 2px;
+
+}
+.head-bottom nav ul li a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.head-bottom nav ul li:hover {
+	background-color: #C0000D;
+}
+.head-bottom nav ul #type{
+	background-color: #C0000D;
+	width: 210px;
+	height: 50px;
+	text-align: left;
+	padding-left: 30px;
+}
+.head-bottom nav ul #type span{
+	margin-left: 90px;
+}
+
+/*隐藏部分列表*/
+.head-bottom .dropdown{
+	position: relative;
+}
+.head-bottom .dropdown ul{
+	border-radius: 0;
+	position: absolute;
+	top: 50px;
+	left: -212px;
+	border:1px solid #E00025;
+	height: 327px;
+}
+.head-bottom .dropdown ul a{
+	text-decoration: none;
+	color: orange;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+.head-bottom .dropdown ul li{
+	width: 208px;
+	height:64px;
+	border-bottom: 1px solid#b2b2b2;
+	background-color: #fff;
+}
+.head-bottom .dropdown ul li:hover{
+	background-color:#C0000D;
+	color: #fff;
+}
+
+
+
+

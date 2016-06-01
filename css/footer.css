@@ -1,0 +1,190 @@
+.foot{
+	width: 100%;
+	background-color: #E70012;
+	color: #fff;
+}
+.foot .foot-top{
+	width: 100%;
+	height: 260px;
+	border-bottom: 1px solid#FB011A;
+}
+.foot .top-left{
+	width: 66%;
+	height: 260px;
+	border-right: 1px solid#FB011A;
+	float: left;
+}
+.foot .top-left .address{
+	margin-left: 180px;
+	margin-top: 30px;
+	margin-right: 40px;
+	float: left;
+}
+.foot .top-left .address li{
+	border-bottom: 1px solid#F04B59;
+	font-size: 13px;
+}
+.foot .top-left .address li a{
+	color: #FCCECE;
+	text-decoration: none;
+}
+.foot .top-left .address li a:hover{
+	color: #fff;
+}
+.foot .top-left .address li dl dt{
+	font-size: 16px;
+}
+.foot .top-left .address .callback{
+	height: 40px;
+	line-height: 40px;
+}
+.foot .top-left .address .callback span{
+	font-size: 18px;
+}
+.foot .top-left .about{
+	float: left;
+	margin-top: 30px;
+}
+.foot .top-left .about li{
+	margin-left: 50px;
+	float: left;	
+}
+.foot .top-left .about li a{
+	font-size: 13px;
+	text-align: left;
+	text-decoration: none;
+	color: #FCCECE;
+}
+.foot .top-left .about li a:hover{
+	color: #fff;
+}
+.foot .top-left .about li dt{
+	font-size: 16px;
+	color: #fff;
+}
+.foot .top-right{
+	height: 260px;
+	width: 34%;
+	border-left: 1px solid#DA0410;
+	float: right;
+}
+.foot .top-right .choice{
+	width: 220px;
+	height: 30px;
+	background-color: #fff;
+	margin-left: 50px;
+	margin-top: 30px;
+	padding:5px 0 5px 20px;
+	position: relative;
+}
+.foot .top-right .choice #dLabel{
+	text-decoration: none;
+	color: #333;
+}
+.foot .top-right .choice .caret{
+	margin-left:120px;
+}
+.foot .top-right .choice .amenu{
+	border-radius: 0px;
+	width: 220px;
+	border: 1px solid#CACAD9;
+	position: absolute;
+	left: -20px;
+	top: 23px;
+}
+.foot .top-right .choice .amenu a{
+	text-decoration: none;
+	color: #666666;
+}
+.foot .top-right .choice .amenu li{
+	width: 220px;
+	height: 25px;
+	line-height: 30px;
+	text-indent: 10px;
+}
+.foot .top-right .choice .amenu li:hover{
+	background-color: #F4F4F4;
+}
+.foot .top-right .ewm{
+	margin-left: 50px;
+	margin-top: 15px;
+}
+.foot .top-right .ewm .mobilenet{
+	margin-right: 8px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+}
+.foot .top-right .ewm .wechat{
+	float: left;
+	text-align: center;
+	font-size: 14px;
+}
+.foot .top-right .link{
+	margin-left: 50px;
+}
+.foot .top-right .link ul a li{
+	float: left;
+}
+.foot .top-right .link ul a li i{
+	width: 25px;
+	height: 25px;
+	background-image: url('../images/red_share.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	display: block;
+	margin-right:6px;
+}
+.foot .top-right .link ul a li .a1{
+	background-position: 0 0;
+}
+.foot .top-right .link ul a li .a2{
+	background-position: -25px 0px;
+}
+.foot .top-right .link ul a li .a3{
+	background-position: -50px 0;
+}
+.foot .top-right .link ul li .a4{
+	background-position: -75px 0;
+}
+.foot .top-right .link ul li .a5{
+	background-position: -100px 0;
+}
+.foot .top-right .link ul li .a6{
+	background-position: -125px 0;
+}
+.foot .top-right .link ul li .a7{
+	background-position: -150px 0;
+}
+.foot .foot-bottom{
+	border-top: 1px solid#DA0410;
+	width: 100%;
+}
+.foot .foot-bottom .bottom-left{
+	float: left;
+	margin-left: 180px;
+	font-size: 13px;
+	color: #fff;
+}
+.foot .foot-bottom .bottom-left a{
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+}
+.foot .foot-bottom .bottom-left a:hover{
+	text-decoration:underline;
+}
+.foot .foot-bottom .bottom-left .topline{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.foot .foot-bottom .bottom-left .bottomline{
+	margin-bottom: 10px;
+}
+.foot .foot-bottom .bottom-right{
+	float: right;
+	margin-right: 175px;
+	font-size: 14px;
+	text-align: right;
+	margin-top: 10px;
+}

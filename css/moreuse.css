@@ -1,0 +1,117 @@
+@charset "utf-8";
+/*grey*/
+.grey{
+	width: 100%;
+	height: 55px;
+	background-color: #DEDEDE;
+	line-height: 55px;
+}
+.grey nav{
+	margin-left: 180px;
+}
+.grey nav li{
+	float: left;
+	width: 110px;
+	border-right: 1px solid#D1D1D1;
+	text-align: center;
+	color: #666;
+}
+.grey nav #active{
+	background-color: #fff;
+}
+.grey nav #big{
+	width: 210px;
+	color: #555;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.grey nav li:hover{
+	background-color: #fff;
+}
+.grey nav #big:hover{
+	background-color: #dedede;
+}
+
+/*picture*/
+.picture{
+	width: 100%;
+	background-color: #ffd;
+}
+.picture .double{
+	background-image: url('../images/wjj01.jpg');
+	width: 1000%;
+	height: 395px;
+	position: relative;
+}
+.dispict{
+	width: 1150px;
+	height: 200px;
+	text-align: right;
+	font-size: 40px;
+	color: #C0000D;
+	font-weight: bolder;
+}
+.dispict span{
+	display: block;
+	font-size: 24px;
+	color: #777671;
+	font-weight: bolder;
+}
+.pic{
+	position: absolute;
+	margin-left: 180px;
+	position: absolute;
+	bottom: 60px;
+	left: 0;
+}
+.pic .pic-img{
+	width: 177px;
+	height: 177px;
+	border: 8px solid#DEE3E3;
+	border-radius: 90px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 30px;
+	position: relative;
+}
+
+.pic .pic-img img{
+	display: block;
+	width: 164px;
+	height: 164px;
+	border-radius: 90px;
+	position: absolute;
+	top: -2px;
+	left: -1px;
+}
+.pic .pic-img p{
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	bottom: -60px;
+	left: 30px;
+}
+.picture .mountain{
+	background-image: url('../images/wjj02.jpg');
+	width: 1000%;
+	height: 395px;
+	position: relative;
+}
+.picture .city{
+	background-image: url('../images/wjj03.jpg');
+	width: 1000%;
+	height: 395px;
+	position: relative;
+}
+.picture .post{
+	background-image: url('../images/wjj04.jpg');
+	width: 1000%;
+	height: 395px;
+	position: relative;
+}
+.picture .tree{
+	background-image: url('../images/wjj05.jpg');
+	width: 1000%;
+	height: 395px;
+	position: relative;
+}
